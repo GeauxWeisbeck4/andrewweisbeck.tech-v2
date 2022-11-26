@@ -54,9 +54,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'AndrewWeisbeck.tech',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'GeauxWeisbeck4',
           src: 'img/logo.svg',
         },
         items: [
@@ -64,14 +64,16 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
+          { to: '/about', label: 'About', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
+         
         ],
       },
       footer: {
